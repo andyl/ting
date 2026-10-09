@@ -1,0 +1,31 @@
+<div class="mx-auto max-w-2xl flex flex-col items-center text-center">
+  HELLO World - this is a tailwind demo
+  <div class="m-10 p-20 bg-slate-400">
+    SLATE BLOCK STYLED WITH TAILWIND
+  </div>
+
+  <div class="flex gap-4 items-center m-10">
+    <.icon name="heroicons:arrow-down" class="size-10" />
+    <.icon name="heroicons:home" class="size-10" />
+    <.icon name="lucide:star" class="size-10 text-yellow-400" />
+    <.icon name="mdi:github" class="size-10" />
+    <.icon name="ri:heart-fill" class="size-10 text-red-500" />
+    <.icon name="tabler:rocket" class="size-10 text-sky-400" />
+  </div>
+
+  <div>
+    <p>
+      Icons are rendered by <a href="https://hexdocs.pm/phoenix_iconify/">phoenix_iconify</a>
+      using the <code>prefix:name</code>
+      format
+    </p>
+    <p class="mt-5">
+      <code>&lt;.icon name="heroicons:arrow-down" /&gt;</code>.
+    </p>
+    <p class="mt-5">
+      Browse all available icons at
+      <a href="https://icon-sets.iconify.design/">icon-sets.iconify.design</a>
+      (or just the <a href="https://icon-sets.iconify.design/heroicons/">Heroicons set</a>).
+    </p>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+---
+assigns = assign(assigns, :layout, "layout2.html")
+---
+
+<div>
+<p>This is test1.astral</p>
+<p>THIS IS AN ASTRAL PAGE</p>
+</div>
+
