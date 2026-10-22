@@ -2,12 +2,12 @@ import Astral.Config
 
 root(".")
 outdir("docs")
-base_path("/ting/")
+# base_path("/ting/")
 
 plugin(Astral.Plugin.LLMs, title: "Ting")
 
 layouts do
-  default("layout1.html")
+  default("layout1.astral")
 end
 
 assets do
