@@ -1,5 +1,5 @@
 ---
-layout: "layout2.html" 
+layout: layout2
 ---
 
 # HELLO WORLD 

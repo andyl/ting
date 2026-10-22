@@ -12,6 +12,9 @@ The default layout is `layout1`.
 
 The pages `test1.astral` and `test2.md` use `layout2`.
 
-This relates to an astral issue [#18](https://github.com/elixir-volt/astral/issues/18).
+In Astral 0.8.0 layouts are components. Markdown pages pick one with
+`layout: layout2` in frontmatter; `.astral` pages wrap themselves with
+`<Layouts.layout2 {assigns}>`.
 
-The codemods to enable custom layout for astral are on [this branch](https://github.com/andyl/astral/tree/custom_layout).
+This relates to astral issue [#18](https://github.com/elixir-volt/astral/issues/18)
+and PR [#19](https://github.com/elixir-volt/astral/pull/19).

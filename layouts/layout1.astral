@@ -3,13 +3,13 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title><%= @page.title || "Ting" %></title>
-    <link rel="stylesheet" href="<%= Astral.asset_path(@site, "styles.css") %>" />
-    <script type="module" src="<%= Astral.asset_path(@site, "app.ts") %>"></script>
+    <title>{@title || "Ting"}</title>
+    <link rel="stylesheet" href={Astral.asset_path(@site, "styles.css")} />
+    <script type="module" src={Astral.asset_path(@site, "app.ts")}></script>
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="/ting/">Home</a>
+      <a class="brand" href="/">Home</a>
       <nav aria-label="Main navigation">
         <a href="/about/">About</a>
         <a href="/test1/">Test1</a>
@@ -18,9 +18,8 @@
       </nav>
     </header>
 
-    <main class="page" data-route="<%= @route %>">
-      <%# render_slot(@inner_block) %>
-      HELLO WORLD
+    <main class="page" data-route={@route}>
+      {render_slot(@inner_block)}
     </main>
     <div class="text-center">
       THIS IS LAYOUT1 - THE DEFAULT LAYOUT

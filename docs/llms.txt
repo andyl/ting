@@ -1,9 +1,0 @@
-# Ting
-
-## Pages
-
-- [Welcome to Ting](/ting/)
-- [About Ting](/ting/about/)
-- [/demo\_tailwind/](/ting/demo_tailwind/)
-- [/test1/](/ting/test1/)
-- [HELLO WORLD](/ting/test2/)
